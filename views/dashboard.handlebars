@@ -1,0 +1,26 @@
+
+
+
+<section>
+     <div class="list-title">
+           <h2>List of Posts</h2>
+       </div>
+   <div class="list-scroll">
+      
+       {{#each title}}
+        <div class="post-list">
+            <h4> <a class="title-text" href="/dashboard/post-update/{{id}}">{{title}}</a></h4>
+        </div>
+        {{/each}}
+    </div>
+
+    <div class="post-button">
+        <a href="/dashboard/create"  id="addPost" class="btn add-post">+ Add Post</a>
+    </div>
+</section>
+ 
+
+
+ 
+   
+   {{!-- Hey Jorman make another handlebars for the Post that will get updated or deleted, finish the routes for the for the Posts creation. and create the auth thingy so the user wont have any acess to the other routes and set up heroku, remember to upload the seed file using heroku command line. --}}

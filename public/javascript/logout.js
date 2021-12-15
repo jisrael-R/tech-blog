@@ -18,7 +18,7 @@ async function logout() {
    setTimeout(()=>{
     document.location.reload();
 
-  },6000);
+  },20000);
 }
   function notification2 (){
     const divEl = document.querySelector('.notice');

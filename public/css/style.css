@@ -80,6 +80,7 @@ nav{
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    box-shadow: 2px 3px 3px gray;
 }
 .login-card .title{
     background-color: var(--secondary);
@@ -121,14 +122,14 @@ nav{
     width: 90%;
     margin: 0 auto;
     margin-top: 1em;
-    
+    box-shadow: 2px 3px 3px gray; 
 }
 .card{
     border: 3px solid var(--secondary);
     width: 90%;
     margin: 0 auto;
     margin-top: 1em;
-     
+    box-shadow: 2px 3px 3px gray; 
 }
 .card .title{
     display: flex;
@@ -196,7 +197,6 @@ nav{
     box-shadow: 2px 3px 3px gray;
 }
 .list-scroll{
-   
     height:320px;
     overflow:scroll;
     overflow-x:hidden;
@@ -213,7 +213,7 @@ nav{
    
 }
 .notice{
-    -webkit-animation-duration: 13s;animation-duration: 13s;
+    -webkit-animation-duration: 20s;animation-duration: 20s;
     -webkit-animation-fill-mode: both;animation-fill-mode: both;
 }
 @-webkit-keyframes fadeOut {
